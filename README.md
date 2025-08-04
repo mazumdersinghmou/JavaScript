@@ -1,6 +1,12 @@
-🔥 ⚡ Fun JavaScript Facts You Probably Didn't Know 🔥
+![JavaScript Banner](https://raw.githubusercontent.com/rahulbanerjee26/rahulbanerjee26/master/assets/js_banner.gif)
 
-> Sprinkle some JS magic in your brain 🧠✨
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
+
+## ⚡️ Fun JavaScript Facts You Probably Didn't Know
+> 🧠 Spice up your brain with quirky JS insights!
+
+<!-- 💡 facts go here... -->
+
 
 ### 🔹 1. `typeof null === "object"`
 A bug from 1995 that’s still alive — `null` is **not** an object, but `typeof null` returns `"object"` due to legacy reasons.
