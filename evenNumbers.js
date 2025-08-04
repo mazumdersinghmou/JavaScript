@@ -11,3 +11,12 @@ function findEvenNum(arr){
 }
 
 console.log(findEvenNum([1,2,4,5,8,14]));
+
+
+
+// Solution 2: Using Arrow Function + filter()
+
+const findEvenNumber = arr => arr.filter(num => num % 2 == 0);
+
+console.log(findEvenNumber([1, 2, 3, 4, 5]));
+
