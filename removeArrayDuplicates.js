@@ -21,3 +21,18 @@ function removeDuplicates2(arr) {
 }
 
 console.log(removeDuplicates2([1, 2, 3, 4, 4, 5, 5]));
+
+
+// Solution 3: With no inbuilt methods
+
+let arr1 = [1, 2, 3, 4, 4, 5, 5]
+let uniqueArr = [];
+
+for(let values of arr1){
+    if(uniqueArr.indexOf(values) === -1){
+        uniqueArr.push(values)
+    }
+}
+
+console.log(uniqueArr);
+
