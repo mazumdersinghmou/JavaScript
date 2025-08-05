@@ -2,6 +2,7 @@
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
 
+
 ## ⚡️ Fun JavaScript Facts You Probably Didn't Know
 > 🧠 Spice up your brain with quirky JS insights!
 
@@ -19,14 +20,8 @@ typeof [1, 2, 3] === "object"; // true
 
 Arrays are just special objects with numeric keys and a length property.
 
-💡 Did You Know? Arrays are Just Fancy Objects
-typeof [1, 2, 3]; // "object"
-Arrays have numeric keys and a length property — nothing more!
+### Did You Know? Functions Can Hold Properties
 
-💡 Did You Know? Functions Can Hold Properties
-javascript
-Copy
-Edit
 function greet() {}
 greet.language = "JavaScript";
 console.log(greet.language); // "JavaScript"
