@@ -6,7 +6,7 @@
 ## ⚡️ Fun JavaScript Facts You Probably Didn't Know
 > 🧠 Spice up your brain with quirky JS insights!
 
-<!-- 💡 facts go here... -->
+<!-- 💡 facts go here... --> 
 
 
 ### 🔹 1. `typeof null === "object"`
