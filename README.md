@@ -37,17 +37,13 @@ console.log(a + b)
 Thanks to Automatic Semicolon Insertion, but don’t rely on it blindly.
 
 💡 Did You Know? NaN !== NaN
-javascript
-Copy
-Edit
+
 NaN === NaN;         // false
 Object.is(NaN, NaN); // true
 NaN is literally not equal to itself. Use Object.is() or Number.isNaN() instead.
 
 💡 Did You Know? You Can Destructure Strings
-javascript
-Copy
-Edit
+
 const [a, b, c] = "Hi!";
 console.log(a, b, c); // H i !
 Because strings are iterable, you can unpack them just like arrays!
