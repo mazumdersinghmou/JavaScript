@@ -28,9 +28,7 @@ console.log(greet.language); // "JavaScript"
 Functions are objects, so you can attach properties to them like a boss.
 
 💡 Did You Know? You Can Write JS Without Semicolons
-javascript
-Copy
-Edit
+
 let a = 5
 let b = 10
 console.log(a + b)
@@ -49,26 +47,20 @@ console.log(a, b, c); // H i !
 Because strings are iterable, you can unpack them just like arrays!
 
 💡 Did You Know? The Comma Operator Returns the Last Value
-javascript
-Copy
-Edit
+
 let x = (1, 2, 3);
 console.log(x); // 3
 All expressions are evaluated, but only the last one is returned.
 
 💡 Did You Know? Double Equals (==) Can Surprise You
-javascript
-Copy
-Edit
+
 false == '0';  // true
 '' == 0;       // true
 [] == ![];     // true
 JavaScript loves to coerce types. Prefer === for your sanity.
 
 💡 Did You Know? Functions Are Hoisted
-javascript
-Copy
-Edit
+
 sayHi();
 function sayHi() {
   console.log("Hello from the top!");
@@ -76,9 +68,7 @@ function sayHi() {
 Function declarations are hoisted to the top of their scope — works before it's written!
 
 💡 Did You Know? Arrays Are Compared by Reference
-javascript
-Copy
-Edit
+
 [1, 2, 3] === [1, 2, 3]; // false
 They may look the same, but they're stored at different memory locations.
 
