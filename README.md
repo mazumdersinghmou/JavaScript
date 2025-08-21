@@ -20,7 +20,7 @@ typeof [1, 2, 3] === "object"; // true
 
 Arrays are just special objects with numeric keys and a length property.
 
-### Did You Know? Functions Can Hold Properties
+Did You Know? Functions Can Hold Properties
 
 function greet() {}
 greet.language = "JavaScript";
