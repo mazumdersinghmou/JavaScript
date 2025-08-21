@@ -69,7 +69,7 @@ Function declarations are hoisted to the top of their scope — works before it'
 
 💡 Did You Know? Arrays Are Compared by Reference
 
-[1, 2, 3] === [1, 2, 3]; // false
+[1, 2, 3] === [1, 2, 3]; // false 
 They may look the same, but they're stored at different memory locations.
 
 🎁 Bonus: typeof Cheat Table
