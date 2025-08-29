@@ -15,7 +15,7 @@ A bug from 1995 that’s still alive — `null` is **not** an object, but `typeo
 ---
 
 ### 🔹 2. Arrays are Objects
-```javascript
+
 typeof [1, 2, 3] === "object"; // true
 
 Arrays are just special objects with numeric keys and a length property.
