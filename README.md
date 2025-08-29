@@ -18,3 +18,14 @@ A bug from **1995** that’s still alive —
 ### 🔹 2. Arrays are Objects 📦
 ```js
 typeof [1, 2, 3] === "object"; // true
+
+---
+
+### 🔹 3. Functions Can Hold Properties ⚙️
+```js
+function greet() {}
+greet.language = "JavaScript";
+
+console.log(greet.language); // "JavaScript"
+
+---
