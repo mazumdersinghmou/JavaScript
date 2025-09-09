@@ -21,11 +21,17 @@ Algorithms (Sorting, Searching, Dynamic Programming)
 ES6+ Features
 
 📂 Repository Structure
+
 📦 javascript-coding-practice
+
  ┣ 📜 arrays/
+ 
  ┣ 📜 strings/
+ 
  ┣ 📜 recursion/
+ 
  ┣ 📜 dsa/
+ 
  ┗ 📜 README.md
 
 ⚡ How to Run
@@ -41,9 +47,13 @@ Run a file (example):
 node arrays/two-sum.js
 
 🌱 Progress Tracker
+
 ✅ Arrays basics
+
 ✅ Strings basics
+
 🔄 Recursion (in progress)
+
 ⏳ Dynamic Programming (coming soon)
 
 📖 License
